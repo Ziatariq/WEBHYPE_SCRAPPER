@@ -36,4 +36,4 @@ for i in arrayOfUser:
             subject = "Sales Again (Get off now)"
             body=sales['title'] + "Sale is starting from "+ sales['startDate']
             msg = f'Subject : {subject}\n\n{body}'
-            smtp.sendmail('webhypeoffcial@webhype.site', 'yryousafraza@gmail.com',msg)
+            smtp.sendmail('webhypeoffcial@webhype.site', i,msg)
